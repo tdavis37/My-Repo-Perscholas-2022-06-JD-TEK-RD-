@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+}
+.box {
+  border-top: 1px solid black;
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  transition: margin-left 3s;
+}
+.box:hover {
+  background-color: green;
+  margin-left: 500px;
+}
+
+.box2 {
+  border-top: 1px solid black;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  transition: transform 3s;
+}
+
+.box2:hover {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  transform: rotate(360deg);
+}
+
+.box3 {
+  border-top: 1px solid black;
+  height: 150px;
+  width: 150px;
+  background-color: purple;
+  transition: transform 3s;
+}
+
+.box3:hover {
+  height: 150px;
+  width: 150px;
+  background-color: maroon;
+  transform: scale(1.5);
+}
